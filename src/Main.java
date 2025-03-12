@@ -22,6 +22,23 @@ public class Main {
         Bank icicBank = new ICICIBank(4, "Suresh", "Delhi");
         icicBank.paymentProcess();
 
+        DhanlaxmiBank dhanlaxmiBank = new DhanlaxmiBank() {
+            @Override
+            public void Deposits() {
+                System.out.println("hlleo");
+            }
+        };
+
+        BankOfIndia bankOfIndia = new BankOfIndia();
+
+        bankOfIndia.Deposits();
+        bankOfIndia.creditCard();
+        bankOfIndia.CreditCardMaintenanceCharge();
+        bankOfIndia.CreditCardMinBalance();
+        bankOfIndia.FundTransfers();
+        bankOfIndia.IncreaseCreditCardLimits(5000);
+        bankOfIndia.SavingAccount();
+
 
     }
 }

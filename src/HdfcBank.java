@@ -10,7 +10,7 @@ public class HdfcBank extends Bank {
     }
 
     @Override
-    void IFSCcode() {
+    void IFSCCode() {
         System.out.println("IFSC code : 000001234");
     }
 
@@ -21,8 +21,5 @@ public class HdfcBank extends Bank {
     void HdfcCard() {
         System.out.println("Discount - 20%");
     }
-
-
-
 
 }

@@ -7,7 +7,7 @@ public class ICICIBank extends Bank {
         System.out.println("Icic pay");
     }
     @Override
-    void IFSCcode() {
+    void IFSCCode() {
         System.out.println("ICIC IFSC Code : 00009827");
     }
 }

@@ -1,0 +1,5 @@
+interface UCOBank {
+
+    void SavingAccount();
+
+}

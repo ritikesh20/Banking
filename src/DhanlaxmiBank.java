@@ -1,0 +1,5 @@
+interface DhanlaxmiBank {
+
+    void Deposits();
+
+}
