@@ -1,0 +1,4 @@
+interface LufickBank {
+
+    void FundTransfers();
+}
